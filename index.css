@@ -1,0 +1,916 @@
+  
+.body {
+    font-family: 'Heebo', sans-serif;
+}
+/*header */
+  
+  .logonav {
+    position: relative;
+}
+
+  .topnav {
+    overflow: hidden;
+    background: white;
+    text-align: right;
+    height: 100px;
+    line-height: 100px;
+  }
+  
+  .topnav a {
+    display:inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size:120%;
+    color: black;
+    background: white;
+    padding-left:3%;
+    padding-right:3%;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+
+  }
+
+  .logo {
+      float: left;
+      margin-bottom: auto;
+      margin-left: auto;
+  }
+
+  .navitems {
+        direction: rtl;  
+    }
+
+  .navwork:hover { 
+    background: #ADE2DC; 
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+  }
+  
+  .navabout:hover { 
+    background: #F7B9B8; 
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+  }
+  
+  .navresume:hover { 
+    background: #F7D986; 
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+  }
+  
+.navcontact:hover { 
+    background: #F0D4D6; 
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+  }
+  
+  .navwork a.active {
+    background-color: #ADE2DC;
+  }
+
+  .navabout a.active {
+    background-color: #F7B9B8;
+  }
+  
+  .navresume a.active {
+    background-color: #F7D986;
+  }
+
+  .navcontact a.active {
+    background-color: #F0D4D6;
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+
+/*hero section  */
+
+.heroImg {
+    height: 100%;
+    padding-bottom: 20%;
+    background-color: rgba(228,243,241, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 400%;
+    text-align: left;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+h1 {
+    font-family:  'Montserrat', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    margin-bottom: 2%;
+    padding-left: 5%;
+}
+
+h2 {
+  font-size: 80%;
+  font-weight: normal;
+  margin-bottom: 2%;
+  padding-left: 5%;
+}
+
+br {
+    display:none;
+}
+span::before {
+    content: "listen";
+    font-size: 110%;
+    color: #83D6CB;
+    animation: animate infinite 8s;
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+    padding-left: 10px;
+}
+
+.pull-right {
+    padding-top: 10%;
+    padding-right: 10%;
+    width: 80%;
+    float:none !important;
+    margin: auto 0 !important;
+}
+
+.heroparentContainer {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.heroflexChild1 {
+    display:flex-row;
+    width: 80%;
+    vertical-align:top;
+}
+
+.heroflexChild2 {
+    display:flex-row;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+}
+
+@keyframes animate {
+
+    25% {
+        content: "learn";
+        color: #EA9C9A;
+    }
+
+    50% {
+        content: "create";
+        color: #F1C035;
+    }
+
+    75% {
+        content: "solve problems";
+        color: #EA9C9A;
+    }
+}
+
+/*WORK SECTION*/
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 280%;
+    font-weight: normal;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    padding-left: 10%;
+}
+
+h4 {
+    font-size: 90%;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;  
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.parentContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flexChild {
+    display:flex-row;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-size:220%;
+    vertical-align:top;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.workPictures {
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.card:hover h4 {
+    font-weight: 450;
+}
+
+/*SKILL SECTION*/
+
+.skillsSection {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .skillsRectangles {
+    margin: none;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+  
+  .rectangle {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    background: #F8E7E8;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-color: #F8E7E8;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size:180%;
+    border-radius: 60px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .recSoftware {
+    background: #F8E7E8;
+    animation: recColor1 12s infinite;
+    animation-timing-function: linear;
+  }
+  
+  .recSoftskills {
+    background: #F8E7E8;
+    animation: recColor2 12s infinite;
+    animation-timing-function: linear;
+  }
+  
+  .recLanguage {
+    background: #F8E7E8;
+    animation: recColor3 12s infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes recColor1 {
+    from {
+        background: #ffffff;
+    }
+    10% {
+        background: #C6EBE7;
+    }
+    35% {
+        background: #ffffff;
+    }
+    40% {
+        background: #ffffff;
+    }
+    65% {
+        background: #ffffff;
+    }
+    70% {   
+        background: #ffffff;
+    }
+    95% {
+        background: #ffffff;
+    }
+    to {
+        background: #ffffff;
+    }
+  }
+  
+  
+  @keyframes recColor2 {
+    from {
+        background: #ffffff;
+    }
+    10% {
+        background: #ffffff;
+    }
+    35% {
+        background: #ffffff;
+    }
+    40% {
+        background: #F5A7A6;
+    }
+    65% {
+        background: #ffffff;
+    }
+    70% {   
+        background: #ffffff;
+    }
+    95% {
+        background: #ffffff;
+    }
+    to {
+        background: #ffffff;
+    }
+  }
+  
+  
+  @keyframes recColor3 {
+    from {
+        background: #ffffff;
+    }
+    10% {
+        background: #ffffff;
+    }
+    35% {
+        background: #ffffff;
+    }
+    40% {
+        background: #ffffff;
+    }
+    65% {
+        background: #ffffff;
+    }
+    70% {   
+        background: #F7DF99;
+    }
+    95% {
+        background: #ffffff;
+    }
+    to {
+        background: #ffffff;
+    }
+  }
+  
+  .containerGrid {
+    margin: 0 auto;
+    width: 75%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-rows: 180px 180px 180px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "figma HTML creative illustrator github french "
+    "trello spanish CSS helpful bootstrap efficient"
+    "english analytics reliable organized VSC miro"
+    ;
+  }
+  
+  .circle {
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300px;
+    font-size:100%;
+    color: #000000;
+    text-align: center;
+    padding:15px;
+    margin-top: 30%;
+  }
+  
+  .software {
+    background: #F8E7E8;
+    animation: circleColor1 12s infinite;
+    animation-timing-function: linear;
+  }
+  
+  .softskills {
+    background: #F8E7E8;
+    animation: circleColor2 12s infinite;
+    animation-timing-function: linear;
+  }
+  
+  .language {
+    background: #F8E7E8;
+    animation: circleColor3 12s infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes circleColor1 {
+    from {
+        background: #F9EEEF;
+    }
+    10% {
+        background: #C6EBE7;
+    }
+    35% {
+        background: #F9EEEF;
+    }
+    40% {
+        background: #F9EEEF;
+    }
+    65% {
+        background: #F9EEEF;
+    }
+    70% {   
+        background: #F9EEEF;
+    }
+    95% {
+        background: #F9EEEF;
+    }
+    to {
+        background: #F9EEEF;
+    }
+  }
+  
+  
+  @keyframes circleColor2 {
+    from {
+        background: #F9EEEF;
+    }
+    10% {
+        background: #F9EEEF;
+    }
+    35% {
+        background: #F9EEEF;
+    }
+    40% {
+        background: #F5A7A6;
+    }
+    65% {
+        background: #F9EEEF;
+    }
+    70% {   
+        background: #F9EEEF;
+    }
+    95% {
+        background: #F9EEEF;
+    }
+    to {
+        background: #F9EEEF;
+    }
+  }
+  
+  
+  @keyframes circleColor3 {
+    from {
+        background: #F9EEEF;
+    }
+    10% {
+        background: #F9EEEF;
+    }
+    35% {
+        background: #F9EEEF;
+    }
+    40% {
+        background: #F9EEEF;
+    }
+    65% {
+        background: #F9EEEF;
+    }
+    70% {   
+        background: #F7DF99;
+    }
+    95% {
+        background: #F9EEEF;
+    }
+    to {
+        background: #F9EEEF;
+    }
+  }
+  
+/*footer section */
+
+footer {
+    background-color: #CEEEEA;
+    height:20%;
+    margin-top: 5%;
+}
+
+.social {
+    list-style: none;
+    display:inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerBlock {
+    padding: 2%;
+    align-items: center;
+}
+
+/*Responsive Design section */
+/*Navigation */
+
+@media screen and (max-width: 649px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+
+  }
+  
+
+@media screen and (max-width: 649px) {
+.logoimg {
+        width:60px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        }
+
+    .topnav.responsive {
+        position: relative;
+        height: 100%;
+    }
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-top: 3.5%;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+    .icon {
+        margin-top: 3.5%;
+      }
+
+      .navitem {
+        border-bottom: 1px dotted rgb(95, 95, 95);
+      }
+
+    .navwork {
+        margin-top: 5%;
+    }
+
+  }
+/*Hero section */
+
+@media only screen and (min-width: 650px) and (max-width: 959px) {
+    .heroparentContainer {
+        height: 100%;
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .heroImg {
+        height: 100%;
+    }
+
+    .pull-right {
+        padding-top: 25%;
+        width: 100%;
+        justify-content: center;
+    }
+    h1 {
+        margin-top: 2%;
+        padding-top: 10%;
+        font-size:90%;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 10%;
+        margin-bottom: 3%;
+        font-size:70%;
+        text-align: center;
+      }
+
+      h3 {
+        font-size: 190% !important;
+        margin-left: 0% !important;
+        padding-left: 3%;
+    }
+
+    h4 {
+        font-size: 60% !important;
+    }
+    
+
+    br {
+        display:inline;
+    }
+
+.heroflexChild1 {
+    justify-content: center;
+    display: flex-column;
+    margin: 0 auto;
+}
+.heroflexChild2 {
+    justify-content: center;
+    display: flex-column;
+    margin: 0 auto;
+}
+
+}
+
+@media only screen and (max-width: 649px) {
+    .heroparentContainer {
+        height: 100%;
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .heroImg {
+        height: 100%;
+    }
+
+    .pull-right {
+        padding-top: 25%;
+        width: 100%;
+        justify-content: center;
+    }
+    h1 {
+        margin-top: 2%;
+        padding-top: 10%;
+        font-size:60%;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 10%;
+        margin-bottom: 3%;
+        font-size:40% !important;
+        text-align: center;
+      }
+
+      h3 {
+        font-size: 140% !important;
+    }
+    
+    br {
+        display:inline;
+    }
+
+    .heroflexChild1 {
+        justify-content: center;
+        display: flex-column;
+        margin: 0 auto;
+    }
+    .heroflexChild2 {
+        justify-content: center;
+        display: flex-column;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 350px) {
+h1 {
+    font-size: 50%;
+}
+
+h2 {
+    font-size: 32% !important;
+}
+
+h3 {
+    font-size: 140% !important;
+}
+
+h4 {
+    font-size: 45% !important;
+}
+    .heroflexChild1 {
+        height: 300px;
+    }
+
+}
+/*Work section */
+
+@media only screen and (min-width: 650px) and (max-width: 959px) {
+    h3 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        text-align: left;
+        font-size:180%;
+      }
+
+      h4 {
+        text-align: center;
+        font-size:70%;
+}
+}
+
+@media only screen and (max-width: 649px) {
+
+    h3 {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        text-align: left;
+        font-size:110%;
+      }
+
+      h4 {
+        text-align: center;
+        font-size:50%;
+
+      }
+    .parentContainer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .flexChild {
+        justify-content: center;
+        display: flex-column;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    h3 {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: left;
+        font-size:150% !important;
+      }
+      h4 {
+        font-size:55% !important;
+
+      }
+}
+/*Skill section */
+
+  @media only screen and (min-width: 650px) and (max-width: 959px) {
+    .skillsSection {
+        margin-bottom: 10%;
+    }
+  
+    .skillsRectangles {
+        margin: none;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+  
+    .containerGrid {
+      width: 75%;
+      justify-content: center;
+      grid-template-rows: 130px 130px 130px 130px 130px 130px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas:
+      "figma html creative"
+      "illustrator github french"
+      "trello spanish CSS"
+      "helpful bootstrap efficient"
+      "english analytics reliable"
+      "organized VSC miro"
+    ;
+    } 
+  
+    .grid {
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .circle {
+       width: 100px;
+       height: 100px;
+       line-height: 100px;
+       font-size: 100%;
+       padding:4px;
+      }
+    .rectangle {
+      margin-top: 5%;
+      display: flex-row;
+      font-size:100%;
+      width: 100%;
+      height: 100%;
+      line-height: 20px;
+      }
+  }
+  
+  
+  @media only screen and (max-width: 650px) {
+    .skillsSection {
+        margin-bottom: 20%;
+    }
+    .skillsRectangles {
+        margin: none;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+  
+    .containerGrid {
+      width: 100%;
+      justify-content: center;
+      grid-template-rows: 100px 100px 100px 100px 100px 100px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas:
+      "figma html creative"
+      "illustrator github french"
+      "trello spanish CSS"
+      "helpful bootstrap efficient"
+      "english analytics reliable"
+      "organized VSC miro"
+        ;
+    } 
+    .circle {
+       width: 80px;
+       height: 80px;
+       line-height: 80px;
+       font-size: 80%;
+       padding:3.5px;
+      }
+    .rectangle {
+      margin-top: 5%;
+      display: flex-row;
+      font-size:90%;
+      width: 100%;
+      height: 4px;
+      height: 100%;
+      }
+  }
+  
+  
+  
+  @media only screen and (max-width: 300px) {
+    .skillsSection {
+        margin-bottom: 20%;
+    }
+    .skillsRectangles {
+        margin: none;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+  
+    .containerGrid {
+      width: 100%;
+      justify-content: center;
+      grid-template-rows: 100px 100px 100px 100px 100px 100px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas:
+        "figma html creative"
+        "illustrator github french"
+        "trello spanish CSS"
+        "helpful bootstrap efficient"
+        "english analytics reliable"
+        "organized VSC miro"
+        ;
+    } 
+    .circle {
+       width: 75px;
+       height: 75px;
+       line-height: 75px;
+       font-size: 80%;
+       padding:3px;
+      }
+    .rectangle {
+      margin-top: 10%;
+      display: flex-row;
+      font-size:80%;
+      width: 100%;
+      height: 100%;
+      }
+  }
+  
+  
+/*footer section */
+@media only screen and (max-width: 649px) {
+    .footerBlock {
+        display: inline-flex;
+        justify-content: center;
+        padding: 3%;
+    }
+}
+
