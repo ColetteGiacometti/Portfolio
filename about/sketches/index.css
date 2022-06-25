@@ -354,8 +354,12 @@ footer {
 }
 
 .breadcrumbstext a {
-  font-size: 80%;
+  font-size: 70%;
   margin-bottom: 10%;
+}
+
+.breadcrumbstext p {
+  font-size: 70% !important;
 }
 }
 /*Hero section */

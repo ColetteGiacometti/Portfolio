@@ -7,3 +7,8 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  function fade() {
+    $(".preloader").fadeOut("slow");
+}
+    setTimeout(fade, 5000);
