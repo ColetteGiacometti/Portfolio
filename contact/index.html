@@ -61,7 +61,7 @@
         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
       </fieldset>
       <div class="g-recaptcha contactContainer" data-sitekey="6LcuFpsgAAAAAN31uIvvlsJ-MY8nOSHYXGdWEkEx"></div>
-      <div  class="contactContainer"><input class="submitButton" type="submit" value="Submit" data-nlok-ref-guid="47ae4637-87b1-4290-becd-786331acde11"></div>
+      <div  class="contactContainer"><input class="submitButton" type="submit" value="Send" data-nlok-ref-guid="47ae4637-87b1-4290-becd-786331acde11"></div>
     </div>
 </form>
 </section>
@@ -83,25 +83,7 @@
 </footer>
 
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-        <script src="js/index.js"></script>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        
-        <script>
-            function sendEmail () {
-                Email.send({
-                    SecureToken: "4ea7a747-1b1b-4057-8c47-f4e4e9959183",
-                    To : '',
-                    From : document.getElementById("email").value,
-                    Subject : "New Contact Form Enquiry",
-                    Body : "Name: " + document.getElementById("name").value
-                    + "<br> Email: " + document.getElementById("email").value
-                    + "<br> Phone number: " + document.getElementById("phone").value
-                    + "<br> Message: " + document.getElementById("message").value
-                }).then(
-                message => alert(message)
-                );
-            }
-        </script>
+        <script src="js/index.js"></script>        
 
     </body>
 </html>
