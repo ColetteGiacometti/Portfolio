@@ -3,6 +3,11 @@
     font-family: 'Heebo', sans-serif;
     margin-right: 0%;
 }
+
+html, body {
+  overflow-x:hidden 
+} 
+
 /*header */
 
 
