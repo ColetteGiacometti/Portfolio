@@ -264,7 +264,7 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-size:180%;
     border-radius: 60px;
-    width: 100%;
+    width: 60% !important;
     height: 100%;
   }
   
